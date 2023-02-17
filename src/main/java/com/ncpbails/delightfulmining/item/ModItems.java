@@ -20,8 +20,8 @@ public class ModItems {
     public static final RegistryObject<Item> CLAM_CHOWDER = ITEMS.register("clam_chowder",
             () -> new BowlFoodItem(new Item.Properties().stacksTo(16).tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.CLAM_CHOWDER)));
 
-    public static final RegistryObject<Item> FLINT_KNIFE = ITEMS.register("flint_knife", () -> new KnifeItem(ModTiers.FLINT,
-            0.5F, -2.0F, new Item.Properties().tab(FarmersDelight.CREATIVE_TAB)));
+    //public static final RegistryObject<Item> FLINT_KNIFE = ITEMS.register("flint_knife", () -> new KnifeItem(ModTiers.FLINT,
+    //        0.5F, -2.0F, new Item.Properties().tab(FarmersDelight.CREATIVE_TAB)));
 
     public static final RegistryObject<Item> WOODEN_KNIFE = ITEMS.register("wooden_knife", () -> new KnifeItem(Tiers.WOOD,
             0.5F, -2.0F, new Item.Properties().tab(FarmersDelight.CREATIVE_TAB)));
